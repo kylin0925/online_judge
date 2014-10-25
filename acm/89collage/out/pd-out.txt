@@ -1,0 +1,81 @@
+
+408 / 495 = 82 %
+
+
+ ********* Verification *********
+
+seq1=seq1, length=495
+seq2=seq2, length=499
+The length of their longest common subsequence is 408
+Homology ratio: 82 %
+the LCS length is 408
+their LCS is: 
+MTVGEAAAPGHPQDYPADHECCERVVINISGLRFETQLKTLAQFPTLLGPK
+KRMRYFDPLRNEYFFDRNRPSFDAILYYYQSGGRLRRPVNVPLDFSEEIFY
+ELGEEAMEFREDEGIKEEERPLPEEQRQVWLLFEYPESSGPARIAIVSVMV
+ILISIVFCLETLPEDGTHNTIYTSFTDPFFIVETLCIIWFSFELVRFFACP
+SKFFNIMNIDIVAIIPYFITLGTEAEQGQQASLAILRVIRLVRVFRIFKLS
+RHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFAEAESFSIPDA
+FWWAVVSMTTVGYGDMPTIGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFY
+HRETEGEEQAQLVSPSSDLSRSSTISKSYMEIENNSRNTNCTTNVNKLTDV
+
+
+     0     .    :    .    :    .    :    .    :    .    :
+     1 MTV  MSG    ENADEASTA PGHPQD GSY P RQADHDDHECCERVV
+       |||----|----|-|--|--|-||||||---|-|---|---|||||||||
+     1 MTVAT  GDPVDE A  A  ALPGHPQDT  YDPE  A   DHECCERVV
+
+    50     .    :    .    :    .    :    .    :    .    :
+    41 INISGLRFETQLKTLAQFP NTLLG NPKKRMRYFDPLRNEYFFDRNRPS
+       |||||||||||||||||||--||||--|||||||||||||||||||||||
+    37 INISGLRFETQLKTLAQFPE TLLGD PKKRMRYFDPLRNEYFFDRNRPS
+
+   100     .    :    .    :    .    :    .    :    .    :
+    89 FDAILYYYQSGGRLRRPVNVPLD MFSEEI KFYELGEEAME KFREDEG
+       |||||||||||||||||||||||--|||||--||||||||||--||||||
+    85 FDAILYYYQSGGRLRRPVNVPLDI FSEEIR FYELGEEAMEM FREDEG
+
+   150     .    :    .    :    .    :    .    :    .    :
+   136  FIKEEERPLPE KE YQRQVWLLFEYPESSGPAR VIAIVSVMVILISI
+       --||||||||||--|--||||||||||||||||||--|||||||||||||
+   132 Y IKEEERPLPEN EF QRQVWLLFEYPESSGPARI IAIVSVMVILISI
+
+   200     .    :    .    :    .    :    .    :    .    :
+   182 V IFCLETLP      ELKD    DKDFTG T IH   RIDN TTVI Y 
+       |--|||||||------|--|---------|-|--|------|--|-|-|-
+   178 VS FCLETLPIFRDENE  DMHGG     GVTF HTYS   NS T IGYQ
+
+   250     .    :    .    :    .    :    .    :    .    :
+   213   TSNIFTDPFFIVETLCIIWFSFE LVVRFFACPSK  TDFF KNIMN 
+       --||--|||||||||||||||||||-|-|||||||||----||--||||-
+   214 QSTS  FTDPFFIVETLCIIWFSFEFL VRFFACPSKAG  FFT NIMNI
+
+   300     .    :    .    :    .    :    .    :    .    :
+   256 FIDIVAIIPYFITLGTE IA   E   QEGNQKGEQA TSLAILRVIRLV
+       -||||||||||||||||--|---|---|-|-|---||--|||||||||||
+   258  IDIVAIIPYFITLGTEL AEKPEDAQQ G Q   QAM SLAILRVIRLV
+
+   350     .    :    .    :    .    :    .    :    .    :
+   298 RVFRIFKLSRHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFA
+       ||||||||||||||||||||||||||||||||||||||||||||||||||
+   300 RVFRIFKLSRHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFA
+
+   400     .    :    .    :    .    :    .    :    .    :
+   348 EA E  EAES HF SSIPDAFWWAVVSMTTVGYGDM YP VTIGGKIVGS
+       ||-|-----|--|--|||||||||||||||||||||--|--|||||||||
+   350 EADERD   SQ FP SIPDAFWWAVVSMTTVGYGDMV PT TIGGKIVGS
+
+   450     .    :    .    :    .    :    .    :    .    :
+   391 LCAIAGVLTIALPVPVIVSNFNYFYHRETEGEEQAQ L LHV S    SP
+       ||||||||||||||||||||||||||||||||||||-|---|-|-----|
+   393 LCAIAGVLTIALPVPVIVSNFNYFYHRETEGEEQAQYLQ  VTSCPKI P
+
+   500     .    :    .    :    .    :    .    :    .    :
+   434 NLASDS DL  SRRS SSTISKS EYMEI E  EDMNNS    IAHYR  
+       ---|-|-||--|-||--||||||--||||-|-----|||--------|--
+   440    S SPDLKKS RSA STISKSD YMEIQEGV   NNSNEDF    REE
+
+   550     .    :    .    :    .    :    .
+   470 QAN  IRT GNCT   TADQN CVN  K SKLLTDV
+       --|----|--|||---|---|--||--|----||||
+   476   NLK  TA NCTLANT   NY VNITKM   LTDV

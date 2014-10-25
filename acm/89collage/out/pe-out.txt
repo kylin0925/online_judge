@@ -1,0 +1,15 @@
+Object1 = 50
+Object1Unit = 10
+Object2 = 25
+Object2Unit = 4
+Object3 = 30
+Object3Unit = 5
+Total = 600
+
+Object2 = 25
+Object2Unit = 4
+Object3 = 30
+Object3Unit = 5
+Sum = 750
+Total = 600
+

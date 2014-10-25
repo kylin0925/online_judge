@@ -1,0 +1,13 @@
+= Object1 50.0
+= Object1Unit 10
+= Object2 25.0
+= Object2Unit 4
+= Object3 30.0
+= Object3Unit 5
+= Total Object1 Object1Unit * Object2 Object2Unit * +
+p
+= Sum Total Object3 Object3Unit * +
+d Object1
+d Object1Unit
+p
+q
